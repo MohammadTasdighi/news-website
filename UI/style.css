@@ -1,0 +1,83 @@
+/* blog style template - collin grasley - modetwentythree.com - this work is public domain, enjoy!  */
+
+/*  main styles ----------------------------*/
+
+*{ margin:0; padding:0; }* 
+body { padding:0; margin:0; font:0.69em Arial,Verdana, sans-serif; line-height:1.64em; background: url(images/bodybg.gif) repeat; color:#555; }
+a {color: #222; background:inherit; text-decoration:none;}
+a:hover {color:#ff3399; background:none; text-decoration:none; border-bottom:1px dashed;}
+p { padding:5px 0 5px 0;}
+ul {margin:0; padding:0;list-style:none;}
+img {border:0;}
+.clear{clear:both; margin-top:1px;}
+#wrapper { margin:0px auto; width:900px;  padding:0 20px 0 20px; background:#fffbf4;}
+
+/* top ----------------------------*/
+
+#topnav {height:42px; background:#333; width:100%;}
+#menu {float:right; height:23px; margin:8px 8px 0 0;}
+#menu a {display:block; color:#999; background:inherit; text-decoration:none; margin-right:4px;
+line-height:23px;font-weight:bold;}
+#menu a:hover {color:#ff3399; background:inherit;}
+#menu ul {list-style:none; padding:0; margin:0;}
+#menu li {float:left; margin: 0 0 0 5px; }
+
+/* header ----------------------------*/
+
+#header {background: url(images/header.jpg) no-repeat; height:180px; padding:0; margin:0 0 10px 0; clear:both;}
+#title {float:left; width:340px; padding:50px 0 10px 0; margin:0 0 0 180px;}
+#header h1 {  font-size:3.9em; margin:0 0 4px 20px; }
+#header h2 {font:0.9em Arial, Sans-Serif; letter-spacing:0; color:#868686; margin:15px 0 0 20px; padding:0;}
+.t1{font-family:'Impact';color:#ff3399;}
+.t2{font-family:'Impact';color:#333;}
+
+/*  The left column ----------------------------*/
+
+#left {width:190px; float:left; margin-right:20px; padding:0 5px 5px 5px; background:inherit;}
+#left ul {padding:3px 0 12px 5px;}
+#left li {line-height:18px; background:inherit; list-style:disc; margin-left:16px;
+color:#ff3399;}
+#left li a {background:inherit; text-decoration:none; }
+#left li a:hover {text-decoration:none;}
+
+/*  The linkbar column ----------------------------*/
+
+#linkbar {float:left; width:190px; padding:0 5px 5px 5px; margin-right:20px; background:inherit;}
+#linkbar ul {padding:3px 0 12px 5px;}
+#linkbar li {line-height:18px; background:inherit; list-style:disc; margin-left:8px; color:#ff3399;}
+#linkbar a {background:inherit; text-decoration:none;}
+#linkbar a:hover {text-decoration:none;}
+
+/*  The Right Side ----------------------------*/
+
+#right {float:right; padding:0; background:inherit; margin-bottom:10px; width:460px;}
+.content {padding: 10px 0 0 0;}
+#right img {float:left;padding:0 10px 5px 0;}
+.comment_box {clear:both;padding:7px 35px 0 0; margin:10px 0 10px 0;text-align:right;
+background:url(images/comment_box_bg.gif) no-repeat top right;height:32px;}
+.comment_box a {font:bold 1.2em Arial, Sans-Serif; color:#ff3399; background:transparent;}
+
+/*  The CSS for the Article headlines ----------------------------*/
+
+.headline_one{font-size:3.50em;line-height:.8em; color:#333; font-family:'Impact';}
+.headline_two{font-size:3.50em;line-height:.8em; color:#333;
+font-family:'Impact'; border-bottom:4px solid #ff3399;}
+.headline_three{font-size:1.3em;font-weight:bold;color:#333;text-transform:uppercase;
+border-bottom:#ff3399 2px solid;}
+.number{font-family:'Impact';float:left;line-height:1em; color:#ff3399; font-size:4.0em; margin-right:8px;}
+.headline_url{text-decoration:none;color:#999; font-weight:bold; font-size:1.48em; line-height:1.5em;
+text-transform:uppercase; padding-bottom:3px;}
+.small_caps{color:#333; font-size:.7em; text-transform:uppercase; letter-spacing:6px; padding-top:1px;}
+
+/*  The CSS for the blockquote, this is XHTML valid --------------------------------------*/
+
+q {float:left; width:14em; display:block; margin:0.75em 0.75em 0 0; padding:0.3em; 
+border:1px double #CCC; border-width:2px 0; color:#333; background:none; 
+text-align:left; font:italic 1.6em/1.7em Georgia;}
+
+/* footer ----------------------------*/
+
+#footer {clear:both; width:900px; margin:0; padding:10px 0 5px 0; border-top:1px solid #333;
+background:inherit;}
+
+
