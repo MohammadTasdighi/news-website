@@ -1,2 +1,2 @@
 # news-website
-this project have admin panel with INSERT & EDIT & DELETE news for your website
+this project have admin panel with INSERT & EDIT & DELETE option for news website
